@@ -10,7 +10,7 @@ const Dashboard = () => {
   const handleLogout = () => {
     logout();
     toast.success("Logged out successfully");
-    window.location.href = "/login"; // Redirect to login
+    window.location.href = "/"; // Redirect to login
   };
 
   return (

@@ -14,7 +14,7 @@ const Signup = () => {
     try {
       await signup(form);
       toast.success("Signup successful! Please login.");
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       toast.error("Signup failed. Please try again.");
     }
@@ -92,7 +92,7 @@ const Signup = () => {
             Already have an account?{' '}
             <span
               className="text-blue-600 hover:underline cursor-pointer"
-              onClick={() => navigate("/login")}
+              onClick={() => navigate("/")}
             >
               Login
             </span>
