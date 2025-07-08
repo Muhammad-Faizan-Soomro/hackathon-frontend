@@ -92,7 +92,7 @@ const AgentInput = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:8000/agent/process", {
+      const res = await fetch("https://lemon-ai.tech/agent/process", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
