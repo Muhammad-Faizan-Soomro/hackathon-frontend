@@ -30,7 +30,7 @@ Using voice or text, users can discover restaurants, book flights, find hotels, 
 ## 🚀 Live Demo
 
 > 🔐 Login Required  
-Frontend: [https://your-vercel-app.vercel.app](https://your-vercel-app.vercel.app)  
+Frontend: [https://your-vercel-app.vercel.app](https://hackathon-frontend-seven-self.vercel.app/)  
 Backend: [https://github.com/skyflow-dishcovery/user-agent](#)
 
 Use live voice input or type natural prompts like:
